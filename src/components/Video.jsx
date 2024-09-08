@@ -38,10 +38,14 @@ function Home() {
         ></video>
 
         {/* Fallback message for small screens */}
-        <div className="absolute inset-0 flex flex-col justify-center items-center text-center bg-black bg-opacity-50 sm:hidden ">
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-white mb-4 px-4">
-            Welcome to Student Forum mobile
+        <div className="absolute inset-0 flex flex-col justify-center items-center text-center bg-gray-400 Md:bg-black bg-opacity-50 sm:hidden ">
+          <h1 className="text-2xl sm:text-3xl font-extrabold text-blue-500 mb-2 px-4 drop-shadow-md capitalize">
+            Welcome to Tele era Student Forum 
           </h1>
+          <p className='tex-xl font-bold px-4 mb-2 drop-shadow-md capitalize'>Department of </p>
+          <p className='tex-xl font-bold px-4 mb-2 drop-shadow-md capitalize'>Electronics and Telecommunications</p>
+          <p className='tex-xl font-bold px-4 mb-2 drop-shadow-md capitalize'>Priyadarshini College of engineering Nagpur</p>
+
         </div>
 
         {/* Conditional rendering of the overlay section with fade-out animation */}
@@ -56,16 +60,6 @@ function Home() {
             </h1>
           </div>
         )}
-      </section>
-
-      {/* Additional Content */}
-      <section className="container mx-auto py-8 px-4">
-        <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-6">
-          What's New?
-        </h2>
-        <p className="text-base sm:text-lg text-gray-700">
-          Check out the latest topics, events, and more in our forum.
-        </p>
       </section>
     </div>
   );

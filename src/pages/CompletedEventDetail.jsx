@@ -12,6 +12,15 @@ function CompletedEventDetail() {
   }
 
   return (
+    <>
+    <section className="container mx-auto py-8 px-4">
+        <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-6">
+          What's New?
+        </h2>
+        <p className="text-base sm:text-lg text-gray-700">
+          Check out the latest topics, events, and more in our forum.
+        </p>
+      </section>
     <div className="container mx-auto px-4 pt-10 md:px-20 my-10">
       <motion.div 
         initial={{ opacity: 0, y: -50 }}
@@ -43,6 +52,7 @@ function CompletedEventDetail() {
         </div>
       </motion.div>
     </div>
+    </>
   );
 }
 

@@ -15,9 +15,12 @@ function Hod() {
   }, []);
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 mt-8">
+      <div className='flex justify-center mb-4 md:justify-start md:ml-24'>
+        <h1 className='text-2xl font-serif capitalize font-bold underline'>Head of Department</h1>
+      </div>
       <div
-        className={`flex flex-col md:flex-row items-center bg-white shadow-lg rounded-lg p-6  duration-700 ${
+        className={`flex flex-col md:flex-row items-center bg-white shadow-lg rounded-lg p-6 md:mx-14  duration-700 ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'
         }`}
       >

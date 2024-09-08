@@ -30,7 +30,7 @@ function Events() {
         loader ? (
           <Loader/>
         ):events.length==0 ?(
-          <div className="container mx-auto px-4 pt-10 md:px-20 my-10"><p>No Members found ! .</p></div>
+          <div className="container mx-auto px-4 pt-10 md:px-20 my-10"><p>No Events found ! .</p></div>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {events.map((event) => (
