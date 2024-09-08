@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import video from '../assets/video.mp4'; // Replace with the actual path to your video
+import video from '../assets/video1.mp4'; // Replace with the actual path to your video
 
 function Home() {
   const [isVisible, setIsVisible] = useState(true);
