@@ -13,7 +13,7 @@ function Forum() {
   }, []);
 
   const loadMembers = async () => {
-    const result = await axios.get("http://localhost:8080/fmembers/members");
+    const result = await axios.get("https://teleera.onrender.com/fmembers/members");
     setMembers(result.data); // Access the data from the response
     setLoading(false);
   };

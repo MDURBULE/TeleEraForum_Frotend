@@ -18,7 +18,7 @@ const UpComingEvents = () => {
 
   const eventLoader = async()=>{
     try{
-      const result = await axios.get("http://localhost:8080/upcommingEvents/events");
+      const result = await axios.get("https://teleera.onrender.com/upcommingEvents/events");
       setEvents(result.data);
       setLoader(false);
     }catch(error){
