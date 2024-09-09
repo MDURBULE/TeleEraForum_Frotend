@@ -20,7 +20,7 @@ function Hod() {
         <h1 className='text-2xl font-serif capitalize font-bold underline'>Head of Department</h1>
       </div>
       <div
-        className={`flex flex-col md:flex-row items-center bg-white shadow-lg rounded-lg p-6 md:mx-14  duration-700 ${
+        className={`flex flex-col md:flex-row items-center bg-white shadow-lg rounded-lg p-6 xl:mx-14  duration-700 ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10'
         }`}
       >
